@@ -37,7 +37,7 @@ public class Mow {
 	}
 
 	public void showInformation() {
-		// Clearly not a best practice, but easiest & fastest way to bring a notification to the user
+		// Clearly not a best practice, it's just a makeshift job to have a notification
 		JOptionPane.showMessageDialog(null, "Position : " + position.getxAxis() + " " + position.getyAxis() + " " + direction.name(), "Mow Informations", JOptionPane.INFORMATION_MESSAGE);
 	}
 
